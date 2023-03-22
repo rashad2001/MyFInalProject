@@ -10,5 +10,8 @@ UserManager userManager = new UserManager(new UserDal());
 
 foreach (var u in userManager.GetData())
 {
+    Console.WriteLine(u.Id);
+    Console.WriteLine(u.BirthYear);
+    Console.WriteLine(u.Name);
     Console.WriteLine(u.Surname);
 }
