@@ -14,4 +14,5 @@ foreach (var u in userManager.GetData())
     Console.WriteLine(u.BirthYear);
     Console.WriteLine(u.Name);
     Console.WriteLine(u.Surname);
+    Console.WriteLine("ID: " + u.Id  + " Name: " + u.Name + " Surname: " + u.Surname + " BirthYear: " + u.BirthYear);
 }
